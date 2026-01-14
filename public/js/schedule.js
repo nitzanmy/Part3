@@ -231,7 +231,7 @@ function renderSchedule(classes, notices) {
                     } else if (userStatus === 'waitlist') {
                         actionHtml = `
                             <div class="waitlist-info">את/ה במקום ה ${cls.waitlist_position} ברשימת המתנה </div>
-                            <button class="register-btn-wwaitlist" onclick="cancelRegistration(${cls.id})">ביטול המתנה</button>
+                            <button class="register-btn-waitlist" onclick="cancelRegistration(${cls.id})">ביטול המתנה</button>
                         `;
                     } else {
                         if (!isZoom && isFull) {

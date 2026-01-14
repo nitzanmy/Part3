@@ -24,9 +24,63 @@ CREATE TABLE IF NOT EXISTS users (
 INSERT INTO users (email, password, first_name, last_name, phone, birthdate, city, role) 
 VALUES ('mutsnik@gmail.com', 'michal68', 'מיכל', 'אבידן', '0546202296', '1968-05-25', 'בית נקופה', 'admin');
 
+INSERT INTO users (email, password, first_name, last_name, phone, birthdate, city, training_habit, membership_type, comments, role) 
+VALUES 
+-- נשים (25)
+('noa.cohen88@gmail.com', 'noa88cohen', 'נועה', 'כהן', '0501234567', '1988-03-12', 'ירושלים', 'מתאמן 4-8 אימונים', 'gym_1perweek', NULL, 'client'),
+('maya.levi@walla.co.il', 'maya1234', 'מאיה', 'לוי', '0529876543', '1995-07-22', 'מבשרת ציון', 'מתאמן מעל 8 אימונים', 'gym_2perweek', 'סובלת כאבי גב תחתון', 'client'),
+('tamar.mizrahi@gmail.com', 'tamar555', 'תמר', 'מזרחי', '0541122334', '1980-11-05', 'הר אדר', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('shira.peretz@gmail.com', 'shira1990', 'שירה', 'פרץ', '0536677889', '1990-01-30', 'מעלה אדומים', 'לא מתאמן', 'gym_1perweek', NULL, 'client'),
+('adi.biton@yahoo.com', 'adibiton7', 'עדי', 'ביטון', '0505554441', '2001-09-14', 'בית נקופה', 'מתאמן 4-8 אימונים', 'gym_2perweek', 'אחרי פציעה בברך', 'client'),
+('yael.dahan@gmail.com', 'yaelcool1', 'יעל', 'דהן', '0522233445', '1975-06-18', 'ירושלים', 'מתאמן קבוע', 'gym_1perweek', NULL, 'client'),
+('hila.avraham@gmail.com', 'hilaavr99', 'הילה', 'אברהם', '0548889991', '1999-02-28', 'שורש', 'מתאמן מעל 8 אימונים', 'zoom_2perweek', NULL, 'client'),
+('roni.friedman@walla.co.il', 'roni2002', 'רוני', 'פרידמן', '0507776662', '2002-12-10', 'הר אדר', 'לא מתאמן', 'gym_1perweek', 'מתחילה מאפס, רוצה עדין', 'client'),
+('dana.katz@gmail.com', 'danakatz3', 'דנה', 'כץ', '0524445553', '1983-05-05', 'מבשרת ציון', 'מתאמן 4-8 אימונים', 'gym_2perweek', NULL, 'client'),
+('michal.malka@gmail.com', 'malka85', 'מיכל', 'מלכה', '0532221114', '1985-08-20', 'אבו גוש', 'מתאמן קבוע', 'gym_1perweek', NULL, 'client'),
+('sarah.azoulay@gmail.com', 'saraha70', 'שרה', 'אזולאי', '0543332225', '1970-04-15', 'ירושלים', 'מתאמן מעל 8 אימונים', 'zoom_2perweek', 'מעדיפה שיעורי בוקר', 'client'),
+('liat.gabbai@yahoo.com', 'liatg123', 'ליאת', 'גבאי', '0509998886', '1978-10-01', 'קריית ענבים', 'לא מתאמן', 'gym_1perweek', NULL, 'client'),
+('mor.hadad@gmail.com', 'morhadad4', 'מור', 'חדד', '0526665557', '1992-03-25', 'מעלה אדומים', 'מתאמן 4-8 אימונים', 'gym_2perweek', NULL, 'client'),
+('anat.shapira@walla.co.il', 'anatsh68', 'ענת', 'שפירא', '0531110008', '1968-11-22', 'בית נקופה', 'מתאמן קבוע', 'gym_1perweek', 'פריצת דיסק ישנה', 'client'),
+('gal.ohana@gmail.com', 'galohana5', 'גל', 'אוחינה', '0547778889', '2003-07-07', 'ירושלים', 'מתאמן 4-8 אימונים', 'zoom_2perweek', NULL, 'client'),
+('einat.bar@gmail.com', 'einatbar9', 'עינת', 'בר', '0504443330', '1982-01-19', 'הר אדר', 'מתאמן מעל 8 אימונים', 'gym_2perweek', NULL, 'client'),
+('revital.levin@gmail.com', 'revi1977', 'רויטל', 'לוין', '0525556661', '1977-09-09', 'מבשרת ציון', 'לא מתאמן', 'gym_1perweek', 'בהריון חודש רביעי', 'client'),
+('keren.tal@yahoo.com', 'keren7tal', 'קרן', 'טל', '0538887772', '1996-06-30', 'ירושלים', 'מתאמן קבוע', 'gym_2perweek', NULL, 'client'),
+('shani.amar@gmail.com', 'shani2000', 'שני', 'עמר', '0542223333', '2000-12-05', 'בית נקופה', 'מתאמן 4-8 אימונים', 'zoom_2perweek', NULL, 'client'),
+('orit.segal@gmail.com', 'oritsegal1', 'אורית', 'סגל', '0503334444', '1972-02-14', 'מעלה אדומים', 'מתאמן מעל 8 אימונים', 'gym_1perweek', NULL, 'client'),
+('neta.golan@walla.co.il', 'neta12345', 'נטע', 'גולן', '0521112225', '1998-05-21', 'שורש', 'לא מתאמן', 'gym_2perweek', NULL, 'client'),
+('limor.yosef@gmail.com', 'limory79', 'לימור', 'יוסף', '0534445556', '1979-08-08', 'ירושלים', 'מתאמן 4-8 אימונים', 'gym_1perweek', 'רגישות בכתפיים', 'client'),
+('inbar.cohen@gmail.com', 'inbarc04', 'ענבר', 'כהן', '0549990007', '2004-04-04', 'הר אדר', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('sigal.david@gmail.com', 'sigald66', 'סיגל', 'דוד', '0502221118', '1966-10-10', 'מבשרת ציון', 'מתאמן מעל 8 אימונים', 'gym_2perweek', NULL, 'client'),
+('avigail.shahar@gmail.com', 'avi1shahar', 'אביגיל', 'שחר', '0528889999', '1994-01-01', 'ירושלים', 'לא מתאמן', 'gym_1perweek', NULL, 'client'),
+
+-- גברים (25)
+('yossi.levi@gmail.com', 'yossi123', 'יוסי', 'לוי', '0501112233', '1985-05-15', 'ירושלים', 'מתאמן 4-8 אימונים', 'gym_1perweek', NULL, 'client'),
+('david.cohen@walla.co.il', 'david1990', 'דוד', 'כהן', '0523334455', '1990-09-20', 'מבשרת ציון', 'לא מתאמן', 'gym_2perweek', 'מחפש חיזוק שרירי ליבה', 'client'),
+('moshe.mizrahi@gmail.com', 'moshe555', 'משה', 'מזרחי', '0545556677', '1975-12-01', 'מעלה אדומים', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('idan.peretz@gmail.com', 'idanp2000', 'עידן', 'פרץ', '0537778899', '2000-03-10', 'הר אדר', 'מתאמן מעל 8 אימונים', 'gym_1perweek', NULL, 'client'),
+('omer.biton@yahoo.com', 'omerb123', 'עומר', 'ביטון', '0509998877', '1995-07-30', 'בית נקופה', 'מתאמן 4-8 אימונים', 'gym_2perweek', NULL, 'client'),
+('amit.dahan@gmail.com', 'amitcool', 'עמית', 'דהן', '0526665544', '1988-02-14', 'ירושלים', 'לא מתאמן', 'gym_1perweek', 'בעיות יציבה', 'client'),
+('guy.avraham@gmail.com', 'guyavr82', 'גיא', 'אברהם', '0544443322', '1982-11-25', 'שורש', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('eyal.friedman@walla.co.il', 'eyal1970', 'אייל', 'פרידמן', '0502223311', '1970-06-05', 'קריית ענבים', 'מתאמן מעל 8 אימונים', 'gym_1perweek', NULL, 'client'),
+('roee.katz@gmail.com', 'roeekatz', 'רועי', 'כץ', '0528887766', '1998-04-22', 'מבשרת ציון', 'מתאמן 4-8 אימונים', 'gym_2perweek', NULL, 'client'),
+('itay.malka@gmail.com', 'itaymalka', 'איתי', 'מלכה', '0535554433', '2003-01-18', 'אבו גוש', 'לא מתאמן', 'gym_1perweek', NULL, 'client'),
+('daniel.azoulay@gmail.com', 'dani1234', 'דניאל', 'אזולאי', '0541112299', '1992-08-08', 'ירושלים', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('shlomi.gabbai@yahoo.com', 'shlomi77', 'שלומי', 'גבאי', '0506667788', '1977-10-30', 'הר אדר', 'מתאמן 4-8 אימונים', 'gym_2perweek', 'אחרי ניתוח בקרסול', 'client'),
+('alon.hadad@gmail.com', 'alonh999', 'אלון', 'חדד', '0524445566', '1980-03-03', 'מעלה אדומים', 'מתאמן מעל 8 אימונים', 'gym_1perweek', NULL, 'client'),
+('nir.shapira@walla.co.il', 'nirshap1', 'ניר', 'שפירא', '0533332211', '1969-12-12', 'בית נקופה', 'לא מתאמן', 'gym_2perweek', NULL, 'client'),
+('gilad.ohana@gmail.com', 'gilad555', 'גלעד', 'אוחינה', '0548889900', '1996-05-05', 'ירושלים', 'מתאמן 4-8 אימונים', 'zoom_2perweek', NULL, 'client'),
+('oren.bar@gmail.com', 'orenbar1', 'אורן', 'בר', '0507778899', '1984-09-19', 'הר אדר', 'מתאמן קבוע', 'gym_1perweek', NULL, 'client'),
+('aviv.levin@gmail.com', 'avivl2005', 'אביב', 'לוין', '0529990011', '2005-07-27', 'מבשרת ציון', 'מתאמן מעל 8 אימונים', 'gym_2perweek', NULL, 'client'),
+('matan.tal@yahoo.com', 'matant88', 'מתן', 'טל', '0531112233', '1988-11-11', 'ירושלים', 'לא מתאמן', 'gym_1perweek', 'מעוניין בשיעורים למתחילים בלבד', 'client'),
+('doron.amar@gmail.com', 'doron123', 'דורון', 'עמר', '0546665544', '1973-02-20', 'בית נקופה', 'מתאמן 4-8 אימונים', 'zoom_2perweek', NULL, 'client'),
+('yaniv.segal@gmail.com', 'yanivs90', 'יניב', 'סגל', '0504443322', '1990-06-15', 'מעלה אדומים', 'מתאמן קבוע', 'gym_1perweek', NULL, 'client'),
+('asaf.golan@walla.co.il', 'asafgol1', 'אסף', 'גולן', '0522223344', '2001-01-25', 'שורש', 'מתאמן מעל 8 אימונים', 'gym_2perweek', NULL, 'client'),
+('kobi.yosef@gmail.com', 'kobiy777', 'קובי', 'יוסף', '0538887766', '1976-04-09', 'ירושלים', 'לא מתאמן', 'gym_1perweek', NULL, 'client'),
+('tamir.cohen@gmail.com', 'tamirc12', 'תמיר', 'כהן', '0545554433', '1983-08-30', 'קריית ענבים', 'מתאמן 4-8 אימונים', 'gym_2perweek', 'גמישות נמוכה', 'client'),
+('avi.david@gmail.com', 'avidavid', 'אבי', 'דוד', '0501119988', '1967-12-29', 'מבשרת ציון', 'מתאמן קבוע', 'zoom_2perweek', NULL, 'client'),
+('ran.shahar@gmail.com', 'ranshahar', 'רן', 'שחר', '0523332211', '1993-10-10', 'ירושלים', 'מתאמן מעל 8 אימונים', 'gym_1perweek', NULL, 'client');
 
 -- יצירת טבלת שיעורים (עם המפתח המורכב שבחרנו)
-
 CREATE TABLE classes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   class_name VARCHAR(100) NOT NULL,
