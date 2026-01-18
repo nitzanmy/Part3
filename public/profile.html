@@ -14,13 +14,13 @@
 <body class="page-loading" id="page_profile">
     <div id="navbar-placeholder"></div>
 
-    <div class="profile-card-container">
+    <div class="profile-card-container"> <!-- קונטיינר ראשי של כרטיס הפרופיל -->
         <h1 class="profile-header">הפרופיל שלי</h1>
 
-        <!-- Message For Login-->
+        <!-- הודעת התחברות (אם לא מחובר) -->
         <div id="profile-login-message" class="profile-login-message"></div>
 
-        <!-- User Details -->
+        <!-- פרטי משתמש + עריכת פרטים -->
         <section class="profile-section" id="profile-details">
             <div class="profile-top-row">
                 <h2 class="section-title">פרטי משתמש</h2>
@@ -28,15 +28,15 @@
                     עריכת פרטים
                 </button>
             </div>
-
-            <!-- Wrapper for profile details -->
+ 
+            <!-- תצוגת פרטים אישיים (נטענת ב-JS) -->
             <div class="profile-details-header" id="profile-details-wrapper">
-                <div class="profile-section" id="profile-details-inner">
+                <div class="profile-section" id="profile-details-inner"> <!--התוכן עצמו של הפרטים האישיים-->
                 </div>
             </div>
         </section>
 
-        <!-- Upcoming Classes -->
+        <!-- שיעורים קרובים + קישור למערכת שעות -->
         <section class="profile-section" id="profile-classes-section">
             <h2 class="section-title">השיעורים שלי לשבוע הקרוב</h2>
             <div id="profile-classes">
@@ -48,7 +48,7 @@
         </section>
     </div>
 
-    <div id="footer-placeholder"></div>
+    <div id="footer-placeholder"></div> <!--פוטר-->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

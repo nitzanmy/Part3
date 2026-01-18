@@ -15,14 +15,14 @@
 
     <div id="navbar-placeholder"></div>
 
-    <!-- login form -->
+   <!-- טופס הרשמה -->
     <div class="registirationForm">
         <h1 class="headers">ברוכים הבאים<br>לסטודיו של מיכל</h1>
         <h4>אנא מלא את הפרטים הבאים:</h4>
 
         <form id="registration-Form" novalidate>
 
-            <!-- User Information -->
+            <!-- פרטים של המשתמש -->
             <div>
                 <label for="firstName">שם פרטי:</label><br>
                 <input type="text" id="firstName" name="firstName" placeholder="ישראל" required>
@@ -88,7 +88,7 @@
             <br>
 
             <div>
-                <label>סוג משתמש:</label><br>
+                <label>סוג משתמש באתר:</label><br>
 
                 <input type="radio" id="role-client" name="userRole" value="client" checked>
                 <label for="role-client">מתאמן</label><br>
@@ -98,7 +98,7 @@
             </div>
             <br>
 
-            <!-- Training Habits -->
+            <!-- הרגלי אימון -->
             <div id="habitsSection">
                 <label>האם אתה מתאמן באופן קבוע?</label><br>
 
@@ -116,7 +116,7 @@
             </div>
             <br>
 
-            <!-- Membership Type -->
+            <!-- סוג מנוי -->
             <div class="membership-type" id="membershipSection">
                 <label>סוג מנוי חודשי:</label><br>
 
@@ -131,7 +131,7 @@
             </div>
             <br>
 
-            <!-- Health Declaration Link -->
+           <!--  קישור להצהרת בריאות חיצונית -->
             <div class="healthDeclarationButton">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmtBn1AUXFf8qQMP3BC6aQK7Z-2mbS54zbtnt8jqQ1V9ldVA/viewform"
                     target="_blank">
@@ -140,14 +140,15 @@
             </div>
             <br>
 
-            <!-- Comments -->
+            <!-- הערות חופשיות -->
             <div class="comments">
                 <label for="comments">הערות נוספות:</label><br>
                 <textarea id="comments" name="comments" rows="4" cols="50"
                     placeholder="הערות מיוחדות, פציעות עבר וכו'"></textarea>
             </div>
             <br>
-
+           
+            <!-- כפתור שליחה -->
             <button type="submit" class="submitButton btn">הרשמה</button>
         </form>
     </div>
